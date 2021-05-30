@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Carriage return line feed</title>
+    <meta charset="utf-8" />
+    <script type='text/javascript'>
+        var msg1 = 'This is message 1';
+        var msg2 = 'this is message 2';
+        var msg3 = 'this is message 3';
+        var msg4 = 'this is message 4';
+        function testCrLf() {
+            document.getElementById('txt1').value = "Join with space: " + msg1 + " " + msg2 + " " + msg3;
+            document.getElementById('txt2').value = "Join with new line: " + msg1 + "\n" + msg2 + "\n" + msg3;
+            document.getElementById('txt3').value = "Carriage return seems to line feed in JS: " + msg1 + "\r" + msg2;
+        }
+    </script>
+</head>
+<body onload="testCrLf()">
+    <h1>This repository is to demonstrate concatenation with Carriage Returns and line feeds in 3 languages</h1>
+    <form id="input">
+        <textarea id="txt1" rows="3" cols="50"></textarea><br />
+        <textarea id="txt2" rows="3" cols="50"></textarea><br />
+        <textarea id="txt3" rows="3" cols="50"></textarea><br />
+        <input id="Run" type="Button" value="run" onclick="testCrLf()" />
+        <br />
+        The sum of the numbers is:<br />
+        <textarea id="txtSumValue" rows="1" cols="20"></textarea>
+    </form>
+</body>
+</html>

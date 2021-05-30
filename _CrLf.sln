@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py", "Py\Py.pyproj", "{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CrLf", "VB\CrLf.vbproj", "{014C2D22-B642-44BE-A8D2-376A67AE4919}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46907420-8E50-471A-A0AE-B1FA9DF1B2CE}"
+	ProjectSection(SolutionItems) = preProject
+		CrLf.html = CrLf.html
+		index.html = index.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014C2D22-B642-44BE-A8D2-376A67AE4919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014C2D22-B642-44BE-A8D2-376A67AE4919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014C2D22-B642-44BE-A8D2-376A67AE4919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014C2D22-B642-44BE-A8D2-376A67AE4919}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22EEA0B0-10BD-45AE-925D-06FB44111780}
+	EndGlobalSection
+EndGlobal
