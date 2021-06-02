@@ -4,27 +4,25 @@
     <title>JS Carriage return line feed</title>
     <meta charset="utf-8" />
     <script type='text/javascript'>
-        var msg1 = 'This is message 1';
-        var msg2 = 'this is message 2';
-        var msg3 = 'this is message 3';
+        var msg1 = 'Message 1 - no apostrphe in single quote string';
+        var msg2 = "Message 2 - You didn't win"; // string in double quotes
+        var msg3 = 'Message 3 - You didn\'t win'; // backslash preceding apostrophe
         var msg4 = 'this is message 4';
+
         function testCrLf() {
             document.getElementById('txt1').value = "Join with space: " + msg1 + " " + msg2 + " " + msg3;
             document.getElementById('txt2').value = "Join with new line: " + msg1 + "\n" + msg2 + "\n" + msg3;
-            document.getElementById('txt3').value = "Carriage return seems to line feed in JS: " + msg1 + "\r" + msg2;
+            document.getElementById('txt3').value = "Carriage return seems to line feed in JS: " + msg1 + "\r" + msg2 + "\n" + msg3;
         }
     </script>
 </head>
 <body onload="testCrLf()">
     <h1>Use of carriage return and line feed.</h1>
+    <p>The 3 statements below use different combinations of concatenation code:</p>
     <form id="input">
-        <textarea id="txt1" rows="3" cols="50"></textarea><br />
-        <textarea id="txt2" rows="3" cols="50"></textarea><br />
-        <textarea id="txt3" rows="3" cols="50"></textarea><br />
-        <input id="Run" type="Button" value="run" onclick="testCrLf()" />
-        <br />
-        The sum of the numbers is:<br />
-        <textarea id="txtSumValue" rows="1" cols="20"></textarea>
+        <textarea id="txt1" rows="5" cols="50"></textarea><br />
+        <textarea id="txt2" rows="5" cols="50"></textarea><br />
+        <textarea id="txt3" rows="5" cols="50"></textarea><br />
     </form>
 </body>
 </html>

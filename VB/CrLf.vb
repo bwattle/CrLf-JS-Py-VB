@@ -1,7 +1,7 @@
 ﻿Public Class CrLf
-    Dim msg1 = "This is message 1"
-    Dim msg2 = "This is message 2"
-    Dim msg3 = "This is message 3"
+    Dim msg1 = "Message 1 - no apostrphe"
+    Dim msg2 = "Message 2 - You didn't win"
+    Dim msg3 = "Apostrophes are no problem in VB"
     Dim msg4 = "This is message 4"
 
     Private Sub btnMsg1_Click(sender As Object, e As EventArgs) Handles btnMsg1.Click
